@@ -1,0 +1,105 @@
+@font-face {
+    font-family: monserrat-semibold;
+    src: url(../static/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: monserrat-regular;
+    src: url(../static/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: monserrat-thin;
+    src: url(../static/fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: monserrat-medium;
+    src: url(../static/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: monserrat-bold;
+    src: url(../static/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: reggaeOne;
+    src: url(../static/fonts/ReggaeOne-Regular.ttf);
+}
+
+.main {
+    background: rgb(245, 158, 172);
+}
+
+.mainContainer {
+    padding: 10px;
+}
+
+@keyframes title {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+@keyframes BGgradient {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+.background1 {
+    width: 100%;
+    opacity: 50%;
+}
+
+.titulo {
+    font-family: reggaeOne;
+    font-size: 40px;
+    color: black;
+    animation: title 15s ease infinite;
+}
+
+.textos {
+    font-family: reggaeOne;
+    font-size: 30px;
+    color: black;
+}
+
+.textos2 {
+    font-family: reggaeOne;
+    font-size: 28px;
+    color: black;
+}
+
+.tituloImage {
+    text-align: right;
+}
+
+.verdad {
+    color: rgb(81, 81, 209);
+}
+
+.rowtl {
+    margin-bottom: 10px;
+}
+
+.msgerror {
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        text-align: center;
+        font-size: 30px;
+    }
+    .textos {
+        font-size: 20px;
+    }
+    
+    .textos2 {
+        font-size: 18px;
+    }
+}
