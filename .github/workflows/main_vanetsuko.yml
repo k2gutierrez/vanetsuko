@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'vanetsuko'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BE87A533CF4942B69AB62D8FFEEEAF82 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C7D8AE5B8E6A4F219CC3C7C62D8F8813 }}
